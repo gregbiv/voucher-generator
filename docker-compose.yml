@@ -1,0 +1,12 @@
+# ########################################################################
+# # The Voucher Generator server.
+# ########################################################################
+
+server:
+  build: ./
+  command: go run /mnt/server/main.go
+  ports:
+    - "8000:8000"
+  volumes:
+    - ./src:/mnt/server
+    - ./.go:/go

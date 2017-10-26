@@ -1,0 +1,8 @@
+{
+	"secret": "secret",
+	"host" : "10.11.0.177",
+	"user" : "Admin",
+	"pass" : "ejxnt5*",
+	"public_path": "./public/",
+	"template_path": "./views/"
+}
