@@ -8,5 +8,5 @@ server:
   ports:
     - "8000:8000"
   volumes:
-    - ./src:/mnt/server
+    - ./cmd:/mnt/server
     - ./.go:/go
