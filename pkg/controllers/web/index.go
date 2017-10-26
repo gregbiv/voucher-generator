@@ -3,7 +3,7 @@ package web
 import (
 	"net/http"
 
-	"../../helpers"
+	"github.com/gregbiv/voucher-generator/pkg/helpers"
 	"github.com/zenazn/goji/web"
 )
 

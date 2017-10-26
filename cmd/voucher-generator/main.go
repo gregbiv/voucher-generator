@@ -5,8 +5,8 @@ import (
 	"github.com/golang/glog"
 	"net/http"
 
-	"./controllers/web"
-	"./system"
+	"github.com/gregbiv/voucher-generator/pkg/controllers/web"
+	"github.com/gregbiv/voucher-generator/pkg/system"
 
 	"github.com/zenazn/goji"
 	"github.com/zenazn/goji/graceful"

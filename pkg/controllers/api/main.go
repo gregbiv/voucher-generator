@@ -1,7 +1,7 @@
 package api
 
 import (
-	"../../system"
+	"github.com/gregbiv/voucher-generator/pkg/system"
 )
 
 type Controller struct {
